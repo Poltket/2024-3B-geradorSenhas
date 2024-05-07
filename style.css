@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Road+Rage&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --branco: #f9f7f3;
+    --verde-claro: #a4c3b2;
+    --verde-escuro: #6b9080;
+    --preto: #222725;
+    --fonte-titulo:"Mochiy Pop One", sans-serif;
+    --fonte-texto:"Road Rage", sans-serif;
+}
+
+body{
+    background-color: var(--verde-claro);
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}

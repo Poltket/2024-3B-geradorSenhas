@@ -3,23 +3,55 @@
 *{
     margin: 0;
     padding: 0;
+    font-weight: 400;
 }
 
 :root{
     --branco: #f9f7f3;
-    --verde-claro: #a4c3b2;
-    --verde-escuro: #6b9080;
-    --preto: #222725;
+    --rosa: #d06ecd;
+    --rosa-claro: #ca9cc5;
+    --preto: #2d312f;
     --fonte-titulo:"Mochiy Pop One", sans-serif;
     --fonte-texto:"Road Rage", sans-serif;
 }
 
 body{
-    background-color: var(--verde-claro);
-    color: var(--branco);
+    background-color: var(--preto);
+    color: var(--rosa);
     font-family: var(--fonte-texto);
 }
 
 .titulo-principal{
     font-family: var(--fonte-titulo);
+    font-size: 40px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.conteudo-senha{
+    background-color: var(--branco);
+    padding: 20px;
+    border-bottom: 10px solid var(--rosa-claro);
+    color: var(--preto);
+}
+
+#campo-senha{
+    background-color: var(--rosa);
+    border: none;
+    color: var(--preto);
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+}
+
+#campo-senha:focus{
+    outline: none;
+}
+
+.conteudo{
+    max-width: 700px;
+    margin: 0 auto
 }
